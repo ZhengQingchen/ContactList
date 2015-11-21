@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		129BA65D9DBC42DA7CB5D40C30F0CA97 /* zh-CN.json in Resources */ = {isa = PBXBuildFile; fileRef = E517B744005182C01A692E401DB79C19 /* zh-CN.json */; };
+		16715D25BC1F1C41035D5AA93F7C9EF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCEA5642F7AD1C4C083BC31D4039893 /* Foundation.framework */; };
+		1C398CF366A58175C97458F7E936C4BA /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F260251F683B1B8C27F5239E3F3B54A /* SwiftyJSON-dummy.m */; };
+		25F0AECA4CBCCD36DAFE96E7B0068BFF /* Lorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6431CFF3F432A2714593B654E9810 /* Lorem.swift */; };
+		2B17FC679FB5DBC98E30834D922D90CE /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A3F5144C788070AF0B6C815D411E66D /* es.json */; };
+		32AA418D34C89E429D401BDF2C2CC30C /* Faker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF738E9C644154143F7174F7D97EB10 /* Faker.swift */; };
+		383EA42BC18ADF7EA48454962905A2BA /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF56845CD0565939FC82D50585444B7 /* Address.swift */; };
+		3D13D96587352023394EA1A7A62072E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCEA5642F7AD1C4C083BC31D4039893 /* Foundation.framework */; };
+		3FE1F2ED62EC036AB1FDDD4AFCBC678F /* nb-NO.json in Resources */ = {isa = PBXBuildFile; fileRef = 29A237A75CE11EEF148D0A8F7BEDF3FE /* nb-NO.json */; };
+		40CE20FB7F8CB3C2426E9CD5D03680E6 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661BA4D7CD9FB6031CC9237023DBE6DF /* Provider.swift */; };
+		42B94B0EAFB8D647D2EC055D87CFE060 /* en-US.json in Resources */ = {isa = PBXBuildFile; fileRef = CDEA5A1A01208DFDBAD7DA4637E15439 /* en-US.json */; };
+		439049ADE66E4D13D7A331F91C901A0E /* fr.json in Resources */ = {isa = PBXBuildFile; fileRef = AE715111D381F359D870D1DCA053835D /* fr.json */; };
+		4624271E7148FE5E57BA2938E036740A /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C7B3993E7367BDBFBB9B385F9F176 /* Company.swift */; };
+		471374596451031FF2CFDFC72FCC2CF4 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D8E8A04186E0E25C634D36F61BEE22 /* SwiftyJSON.swift */; };
+		5134D36DD36C7988FAA70C3DFB4A3C86 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB508846C26003145C46082B93672AA0 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58362B1E4B9BB06F7842DD6001B89302 /* en-IND.json in Resources */ = {isa = PBXBuildFile; fileRef = 31784346EDDC1AA53B971564BD8299AD /* en-IND.json */; };
+		60E9804DA790CB0BAFEF4E52A0E3F840 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830980EA0B007F2271A2BCB0809927D1 /* Name.swift */; };
+		64E2DDD1B52F561E3AD8310CE91BE245 /* Faker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CA390843352D2AC2A928882C0C3D1B6 /* Faker.bundle */; };
+		65C3B21D07C39B09829E298DAC7C7725 /* en-AU.json in Resources */ = {isa = PBXBuildFile; fileRef = A73A2C791F8CEC514B709FD893006E1A /* en-AU.json */; };
+		6762EA8C1A6C692114294289D5594564 /* ru.json in Resources */ = {isa = PBXBuildFile; fileRef = 75C0831E8CCD046D36C7820FE1299E3E /* ru.json */; };
+		692D917B932390E983A8713833F1EA6F /* Pods-Contacts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52157D769A8DF0D882D0CD64CF0B2EA2 /* Pods-Contacts-dummy.m */; };
+		748592FBD5D759FCCA0D3A64BC54A170 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EBA9E3AEC4D86029D4B771A199DDBE /* Team.swift */; };
+		7ADE9D8AE7D1A1C247900869771C2BED /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7C66E0BE3BAC31BAA8D0407FFA485C /* Business.swift */; };
+		7F20C4DA0E4F2FDA54B9402E37E40192 /* fa.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AB41167570DAF0C9E83338327C4A4AC /* fa.json */; };
+		825B12A367338D44D8F19242569A827B /* de-CH.json in Resources */ = {isa = PBXBuildFile; fileRef = 2829876CA4F1C63D944AD297CFEC15B8 /* de-CH.json */; };
+		86CF32F71BF33B2D8E6647BE6323E96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCEA5642F7AD1C4C083BC31D4039893 /* Foundation.framework */; };
+		87E03BD3B50B4E1E86733FF79D5D2B7E /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = BF22E71E284834AE55ECB4E2B1B4C1AC /* en.json */; };
+		96DC9A70691CABB635B1DA85D52F8821 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDBD93CEAE7A51F7B8D86C7A0BD7EDC /* Internet.swift */; };
+		9C5BF97CA8AABFEEAC6DE81343A8B4DC /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E582D2F6EAA47AB40D762EC8CEBE6B6A /* Generator.swift */; };
+		9D5D4DD2E6D85069F5AFA535865B20EF /* en-GB.json in Resources */ = {isa = PBXBuildFile; fileRef = 49E37969E800FCF454ECD538BC46DA13 /* en-GB.json */; };
+		9FD3CD384B90DB5317354712C5F9D481 /* ko.json in Resources */ = {isa = PBXBuildFile; fileRef = DC678CCFA4084A0B64DE900BD7EE8827 /* ko.json */; };
+		A83D71EC00C5563A88EE80FA95FA7644 /* sk.json in Resources */ = {isa = PBXBuildFile; fileRef = D14AEB113E133545875D6D9A36725E05 /* sk.json */; };
+		AFECCCDD07A3C0C56BDED3104DCE734A /* en-CA.json in Resources */ = {isa = PBXBuildFile; fileRef = F893565B083272AA3B0A2613B6E782C3 /* en-CA.json */; };
+		B0B756E85511295212DD12E129D6A52E /* sv.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FC8BE635852E71BA64632E5B93AF20E /* sv.json */; };
+		B14086B458CAFAE773D301C365528DC0 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52AB462D0EB8D514948C0790FBC051 /* ArrayExtension.swift */; };
+		BE7DBED7B67E2D67E9C73325DC3B06C8 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68561B85793432C4F35CC946EBB56A /* Parser.swift */; };
+		C497523A5A5B480FB9F0C0CEDC0DE01F /* it.json in Resources */ = {isa = PBXBuildFile; fileRef = E81D71236C1E0C94F7253FE588D862C4 /* it.json */; };
+		CB3686A17BFC352C1155B76A5D6B296E /* Fakery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF920D3B3B7A4AD0BBE9E32534BF3E /* Fakery-dummy.m */; };
+		CCF1226AE835007670719AB70010B022 /* Fakery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 294A591D3BE29EFE7C218E263A4BB715 /* Fakery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDDD6C6B672C98920EEFE6375A02B106 /* de.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EEFEDB3A373F9C564AE0AAA78AE4A0D /* de.json */; };
+		D5C9A341DA7EC3E3EF7AE5798B22A2C0 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD007838A01F57AE275840E0E0E7859 /* App.swift */; };
+		D804E12595C4259A76590CDEA7907DD2 /* en-TEST.json in Resources */ = {isa = PBXBuildFile; fileRef = BA23E32579063A6580FB9595C519CBCB /* en-TEST.json */; };
+		D820030F64C65981BBFBBA8C7B49EE62 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05A2DDA9058082E37FAAA448F008219 /* SwiftyJSON.framework */; };
+		E1379C061BE1D946E41F24B7C70B2856 /* Pods-Contacts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 262BB4ECFB5F346B0AB4A6BB7BF31A79 /* Pods-Contacts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8C1B3E296285C416CD6C66031D87574 /* ja.json in Resources */ = {isa = PBXBuildFile; fileRef = EB6D6ED1CA0F9750973387FC8C30AC80 /* ja.json */; };
+		EED52E221AC2F0D8D152BFE7FD0AB153 /* de-AT.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E1459A7BB6F9070DB23B1686746D00F /* de-AT.json */; };
+		F1F12A6CF6D535BDCEE901857B9AD80C /* zh-TW.json in Resources */ = {isa = PBXBuildFile; fileRef = 150FEAF5B91BDBFB1EAF19A549C841FC /* zh-TW.json */; };
+		F6C25069EDD6585FBDA1348B54F9D96A /* pl.json in Resources */ = {isa = PBXBuildFile; fileRef = 017F04D017E6B6F38CA4BB690991D99B /* pl.json */; };
+		F76184D985A24BB8FD5F756B8A69FDEB /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5983E5D7DBF72B52AC30E99148374 /* Config.swift */; };
+		F9137FB5617D9845A47E6546042ADCBB /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46B03974F8056EC5596CDE1DCE92CC /* PhoneNumber.swift */; };
+		FB5D488FB1FE49904BD05297B497F3BD /* Commerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9168CDF205265926BF7FC0E1AD7C00 /* Commerce.swift */; };
+		FFB1C8C32289BE32C54E3CDC7827380C /* uk.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE75DB95D67264D5FB7F5E6BC69683C /* uk.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F6353534BB44D5684E443E15F92A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900AF6F007AB96EED6B261C397989D51;
+			remoteInfo = Fakery;
+		};
+		39D3590EBDB48C5B55C4DA9B4C8EF81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B2B2DDBC325F8661F1118FC4BBBF97;
+			remoteInfo = SwiftyJSON;
+		};
+		AE21B8F82DFD7CA30BA22B181649AF3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ADEC62D6DBC5FA811F2B07B2DAE9B4C;
+			remoteInfo = "Fakery-Faker";
+		};
+		D0DAD1BE073049AFD56633FCFAF8B681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B2B2DDBC325F8661F1118FC4BBBF97;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017F04D017E6B6F38CA4BB690991D99B /* pl.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = pl.json; path = Resources/Locales/pl.json; sourceTree = "<group>"; };
+		06AC0A9C400EB1C10656BF9582BD6911 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		0A6E07DCB7BFA114EED481B3B28702B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB41167570DAF0C9E83338327C4A4AC /* fa.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = fa.json; path = Resources/Locales/fa.json; sourceTree = "<group>"; };
+		0C52AB462D0EB8D514948C0790FBC051 /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = Source/Extensions/ArrayExtension.swift; sourceTree = "<group>"; };
+		0DB266AD4959F7DF5BD832CC7ED7C084 /* Pods-Contacts-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Contacts-resources.sh"; sourceTree = "<group>"; };
+		0E2F5174DE8E45AC0EF27CB2E9966FA3 /* Fakery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fakery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		150FEAF5B91BDBFB1EAF19A549C841FC /* zh-TW.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "zh-TW.json"; path = "Resources/Locales/zh-TW.json"; sourceTree = "<group>"; };
+		1A3F5144C788070AF0B6C815D411E66D /* es.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = es.json; path = Resources/Locales/es.json; sourceTree = "<group>"; };
+		1D46B03974F8056EC5596CDE1DCE92CC /* PhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = Source/Generators/PhoneNumber.swift; sourceTree = "<group>"; };
+		1EF56845CD0565939FC82D50585444B7 /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Source/Generators/Address.swift; sourceTree = "<group>"; };
+		23861000B12BBD48D09E6CCF43E729BA /* Pods-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		262BB4ECFB5F346B0AB4A6BB7BF31A79 /* Pods-Contacts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Contacts-umbrella.h"; sourceTree = "<group>"; };
+		282794946CE60A9328E7D6B68FBCF115 /* Pods-Contacts-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Contacts-acknowledgements.plist"; sourceTree = "<group>"; };
+		2829876CA4F1C63D944AD297CFEC15B8 /* de-CH.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "de-CH.json"; path = "Resources/Locales/de-CH.json"; sourceTree = "<group>"; };
+		294A591D3BE29EFE7C218E263A4BB715 /* Fakery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fakery-umbrella.h"; sourceTree = "<group>"; };
+		29A237A75CE11EEF148D0A8F7BEDF3FE /* nb-NO.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "nb-NO.json"; path = "Resources/Locales/nb-NO.json"; sourceTree = "<group>"; };
+		2CA390843352D2AC2A928882C0C3D1B6 /* Faker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Faker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		31784346EDDC1AA53B971564BD8299AD /* en-IND.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "en-IND.json"; path = "Resources/Locales/en-IND.json"; sourceTree = "<group>"; };
+		47E26D4D12B127BB965494410F088F92 /* Fakery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fakery.xcconfig; sourceTree = "<group>"; };
+		49E37969E800FCF454ECD538BC46DA13 /* en-GB.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "en-GB.json"; path = "Resources/Locales/en-GB.json"; sourceTree = "<group>"; };
+		4BCF0BA758D3657B29E4B4F13CA74633 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		4DB2BBA5AE33201159D078CE6D27FB9D /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC8BE635852E71BA64632E5B93AF20E /* sv.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = sv.json; path = Resources/Locales/sv.json; sourceTree = "<group>"; };
+		52157D769A8DF0D882D0CD64CF0B2EA2 /* Pods-Contacts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Contacts-dummy.m"; sourceTree = "<group>"; };
+		61D8E8A04186E0E25C634D36F61BEE22 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		64E5983E5D7DBF72B52AC30E99148374 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Source/Config.swift; sourceTree = "<group>"; };
+		653D8D207D854656B4A42B810097E7D8 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		661BA4D7CD9FB6031CC9237023DBE6DF /* Provider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = Source/Data/Provider.swift; sourceTree = "<group>"; };
+		667C7B3993E7367BDBFBB9B385F9F176 /* Company.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Company.swift; path = Source/Generators/Company.swift; sourceTree = "<group>"; };
+		6BAF920D3B3B7A4AD0BBE9E32534BF3E /* Fakery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fakery-dummy.m"; sourceTree = "<group>"; };
+		6BCEA5642F7AD1C4C083BC31D4039893 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6ECC96D7A25C24B794C08B69D5AEA0FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F07B3C416D72441CCE8EDF84211D842 /* Fakery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fakery-prefix.pch"; sourceTree = "<group>"; };
+		6F260251F683B1B8C27F5239E3F3B54A /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		75C0831E8CCD046D36C7820FE1299E3E /* ru.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = ru.json; path = Resources/Locales/ru.json; sourceTree = "<group>"; };
+		76DB197D1501D497ED24714087DD115E /* Pods-Contacts-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Contacts-frameworks.sh"; sourceTree = "<group>"; };
+		7E1459A7BB6F9070DB23B1686746D00F /* de-AT.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "de-AT.json"; path = "Resources/Locales/de-AT.json"; sourceTree = "<group>"; };
+		830980EA0B007F2271A2BCB0809927D1 /* Name.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Name.swift; path = Source/Generators/Name.swift; sourceTree = "<group>"; };
+		9B25059E7FB9C908F145CB00DA0A5A87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EEFEDB3A373F9C564AE0AAA78AE4A0D /* de.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = de.json; path = Resources/Locales/de.json; sourceTree = "<group>"; };
+		A73A2C791F8CEC514B709FD893006E1A /* en-AU.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "en-AU.json"; path = "Resources/Locales/en-AU.json"; sourceTree = "<group>"; };
+		A935A4FFB2FF01EC4E2A4CA3B19932EB /* Pods-Contacts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Contacts.modulemap"; sourceTree = "<group>"; };
+		AA9168CDF205265926BF7FC0E1AD7C00 /* Commerce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commerce.swift; path = Source/Generators/Commerce.swift; sourceTree = "<group>"; };
+		AAF738E9C644154143F7174F7D97EB10 /* Faker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Faker.swift; path = Source/Faker.swift; sourceTree = "<group>"; };
+		AE715111D381F359D870D1DCA053835D /* fr.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = fr.json; path = Resources/Locales/fr.json; sourceTree = "<group>"; };
+		AEB6431CFF3F432A2714593B654E9810 /* Lorem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lorem.swift; path = Source/Generators/Lorem.swift; sourceTree = "<group>"; };
+		B2EBA9E3AEC4D86029D4B771A199DDBE /* Team.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Team.swift; path = Source/Generators/Team.swift; sourceTree = "<group>"; };
+		B76D4C0B753214AB99F5645C3183C298 /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
+		BA23E32579063A6580FB9595C519CBCB /* en-TEST.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "en-TEST.json"; path = "Resources/Locales/en-TEST.json"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDE75DB95D67264D5FB7F5E6BC69683C /* uk.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = uk.json; path = Resources/Locales/uk.json; sourceTree = "<group>"; };
+		BF22E71E284834AE55ECB4E2B1B4C1AC /* en.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = en.json; path = Resources/Locales/en.json; sourceTree = "<group>"; };
+		C577375A3D71546CBA066D61E75008CE /* Pods_Contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD007838A01F57AE275840E0E0E7859 /* App.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = App.swift; path = Source/Generators/App.swift; sourceTree = "<group>"; };
+		CDEA5A1A01208DFDBAD7DA4637E15439 /* en-US.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "en-US.json"; path = "Resources/Locales/en-US.json"; sourceTree = "<group>"; };
+		CF7C66E0BE3BAC31BAA8D0407FFA485C /* Business.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Business.swift; path = Source/Generators/Business.swift; sourceTree = "<group>"; };
+		D14AEB113E133545875D6D9A36725E05 /* sk.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = sk.json; path = Resources/Locales/sk.json; sourceTree = "<group>"; };
+		D4C86C5D9185DD6A01F3EB5CBCB94C18 /* Fakery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Fakery.modulemap; sourceTree = "<group>"; };
+		DC678CCFA4084A0B64DE900BD7EE8827 /* ko.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = ko.json; path = Resources/Locales/ko.json; sourceTree = "<group>"; };
+		E517B744005182C01A692E401DB79C19 /* zh-CN.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "zh-CN.json"; path = "Resources/Locales/zh-CN.json"; sourceTree = "<group>"; };
+		E582D2F6EAA47AB40D762EC8CEBE6B6A /* Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generator.swift; path = Source/Generators/Generator.swift; sourceTree = "<group>"; };
+		E7387952836110A248A193FE7E22B341 /* Pods-Contacts-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Contacts-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E81D71236C1E0C94F7253FE588D862C4 /* it.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = it.json; path = Resources/Locales/it.json; sourceTree = "<group>"; };
+		EA68561B85793432C4F35CC946EBB56A /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Source/Data/Parser.swift; sourceTree = "<group>"; };
+		EB508846C26003145C46082B93672AA0 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		EB6D6ED1CA0F9750973387FC8C30AC80 /* ja.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = ja.json; path = Resources/Locales/ja.json; sourceTree = "<group>"; };
+		EDDBD93CEAE7A51F7B8D86C7A0BD7EDC /* Internet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internet.swift; path = Source/Generators/Internet.swift; sourceTree = "<group>"; };
+		F05A2DDA9058082E37FAAA448F008219 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F893565B083272AA3B0A2613B6E782C3 /* en-CA.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "en-CA.json"; path = "Resources/Locales/en-CA.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FD30CA72BBE0FE1221B2D4F79A1FEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CF32F71BF33B2D8E6647BE6323E96E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700EBA59B2EAF8A67503E9CF09C9CEE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16715D25BC1F1C41035D5AA93F7C9EF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B5767A6CD56813CDFE7D029DF387488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D13D96587352023394EA1A7A62072E6 /* Foundation.framework in Frameworks */,
+				D820030F64C65981BBFBBA8C7B49EE62 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE845E3B619FF3941267FF707C5EC551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0181983F687AAD358E79ECAEAEBF75CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CA390843352D2AC2A928882C0C3D1B6 /* Faker.bundle */,
+				0E2F5174DE8E45AC0EF27CB2E9966FA3 /* Fakery.framework */,
+				C577375A3D71546CBA066D61E75008CE /* Pods_Contacts.framework */,
+				4DB2BBA5AE33201159D078CE6D27FB9D /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABC93D1E78D1FD525A6C3B877321443 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4C86C5D9185DD6A01F3EB5CBCB94C18 /* Fakery.modulemap */,
+				47E26D4D12B127BB965494410F088F92 /* Fakery.xcconfig */,
+				6BAF920D3B3B7A4AD0BBE9E32534BF3E /* Fakery-dummy.m */,
+				6F07B3C416D72441CCE8EDF84211D842 /* Fakery-prefix.pch */,
+				294A591D3BE29EFE7C218E263A4BB715 /* Fakery-umbrella.h */,
+				0A6E07DCB7BFA114EED481B3B28702B2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fakery";
+			sourceTree = "<group>";
+		};
+		255E5CD0CA1355BB489777EF0ACDEF37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B25059E7FB9C908F145CB00DA0A5A87 /* Info.plist */,
+				06AC0A9C400EB1C10656BF9582BD6911 /* SwiftyJSON.modulemap */,
+				653D8D207D854656B4A42B810097E7D8 /* SwiftyJSON.xcconfig */,
+				6F260251F683B1B8C27F5239E3F3B54A /* SwiftyJSON-dummy.m */,
+				4BCF0BA758D3657B29E4B4F13CA74633 /* SwiftyJSON-prefix.pch */,
+				EB508846C26003145C46082B93672AA0 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		5A335738F46A1CBDD44334D171A79DC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F451C0AF1955500B791E54F6FA8707A /* Fakery */,
+				8DC652F1731F0606518102E52FEF59CF /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65B35BF8E63AD31F1FDAD1F7E7313A21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F05A2DDA9058082E37FAAA448F008219 /* SwiftyJSON.framework */,
+				CE643335E8703B2338A4124105AE1C66 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F451C0AF1955500B791E54F6FA8707A /* Fakery */ = {
+			isa = PBXGroup;
+			children = (
+				1EF56845CD0565939FC82D50585444B7 /* Address.swift */,
+				CCD007838A01F57AE275840E0E0E7859 /* App.swift */,
+				0C52AB462D0EB8D514948C0790FBC051 /* ArrayExtension.swift */,
+				CF7C66E0BE3BAC31BAA8D0407FFA485C /* Business.swift */,
+				AA9168CDF205265926BF7FC0E1AD7C00 /* Commerce.swift */,
+				667C7B3993E7367BDBFBB9B385F9F176 /* Company.swift */,
+				64E5983E5D7DBF72B52AC30E99148374 /* Config.swift */,
+				AAF738E9C644154143F7174F7D97EB10 /* Faker.swift */,
+				E582D2F6EAA47AB40D762EC8CEBE6B6A /* Generator.swift */,
+				EDDBD93CEAE7A51F7B8D86C7A0BD7EDC /* Internet.swift */,
+				AEB6431CFF3F432A2714593B654E9810 /* Lorem.swift */,
+				830980EA0B007F2271A2BCB0809927D1 /* Name.swift */,
+				EA68561B85793432C4F35CC946EBB56A /* Parser.swift */,
+				1D46B03974F8056EC5596CDE1DCE92CC /* PhoneNumber.swift */,
+				661BA4D7CD9FB6031CC9237023DBE6DF /* Provider.swift */,
+				B2EBA9E3AEC4D86029D4B771A199DDBE /* Team.swift */,
+				DE576079A02D7E5B848846CF56E6D89D /* Resources */,
+				1ABC93D1E78D1FD525A6C3B877321443 /* Support Files */,
+			);
+			path = Fakery;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				65B35BF8E63AD31F1FDAD1F7E7313A21 /* Frameworks */,
+				5A335738F46A1CBDD44334D171A79DC3 /* Pods */,
+				0181983F687AAD358E79ECAEAEBF75CA /* Products */,
+				99A039B4892A89699F4804C3F8ED4EED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DC652F1731F0606518102E52FEF59CF /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				61D8E8A04186E0E25C634D36F61BEE22 /* SwiftyJSON.swift */,
+				255E5CD0CA1355BB489777EF0ACDEF37 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		99A039B4892A89699F4804C3F8ED4EED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF74D4E55E261C6EEB6E65692B88ADA3 /* Pods-Contacts */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CE643335E8703B2338A4124105AE1C66 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6BCEA5642F7AD1C4C083BC31D4039893 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE576079A02D7E5B848846CF56E6D89D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9EEFEDB3A373F9C564AE0AAA78AE4A0D /* de.json */,
+				7E1459A7BB6F9070DB23B1686746D00F /* de-AT.json */,
+				2829876CA4F1C63D944AD297CFEC15B8 /* de-CH.json */,
+				BF22E71E284834AE55ECB4E2B1B4C1AC /* en.json */,
+				A73A2C791F8CEC514B709FD893006E1A /* en-AU.json */,
+				F893565B083272AA3B0A2613B6E782C3 /* en-CA.json */,
+				49E37969E800FCF454ECD538BC46DA13 /* en-GB.json */,
+				31784346EDDC1AA53B971564BD8299AD /* en-IND.json */,
+				BA23E32579063A6580FB9595C519CBCB /* en-TEST.json */,
+				CDEA5A1A01208DFDBAD7DA4637E15439 /* en-US.json */,
+				1A3F5144C788070AF0B6C815D411E66D /* es.json */,
+				0AB41167570DAF0C9E83338327C4A4AC /* fa.json */,
+				AE715111D381F359D870D1DCA053835D /* fr.json */,
+				E81D71236C1E0C94F7253FE588D862C4 /* it.json */,
+				EB6D6ED1CA0F9750973387FC8C30AC80 /* ja.json */,
+				DC678CCFA4084A0B64DE900BD7EE8827 /* ko.json */,
+				29A237A75CE11EEF148D0A8F7BEDF3FE /* nb-NO.json */,
+				017F04D017E6B6F38CA4BB690991D99B /* pl.json */,
+				75C0831E8CCD046D36C7820FE1299E3E /* ru.json */,
+				D14AEB113E133545875D6D9A36725E05 /* sk.json */,
+				4FC8BE635852E71BA64632E5B93AF20E /* sv.json */,
+				BDE75DB95D67264D5FB7F5E6BC69683C /* uk.json */,
+				E517B744005182C01A692E401DB79C19 /* zh-CN.json */,
+				150FEAF5B91BDBFB1EAF19A549C841FC /* zh-TW.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DF74D4E55E261C6EEB6E65692B88ADA3 /* Pods-Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC96D7A25C24B794C08B69D5AEA0FA /* Info.plist */,
+				A935A4FFB2FF01EC4E2A4CA3B19932EB /* Pods-Contacts.modulemap */,
+				E7387952836110A248A193FE7E22B341 /* Pods-Contacts-acknowledgements.markdown */,
+				282794946CE60A9328E7D6B68FBCF115 /* Pods-Contacts-acknowledgements.plist */,
+				52157D769A8DF0D882D0CD64CF0B2EA2 /* Pods-Contacts-dummy.m */,
+				76DB197D1501D497ED24714087DD115E /* Pods-Contacts-frameworks.sh */,
+				0DB266AD4959F7DF5BD832CC7ED7C084 /* Pods-Contacts-resources.sh */,
+				262BB4ECFB5F346B0AB4A6BB7BF31A79 /* Pods-Contacts-umbrella.h */,
+				23861000B12BBD48D09E6CCF43E729BA /* Pods-Contacts.debug.xcconfig */,
+				B76D4C0B753214AB99F5645C3183C298 /* Pods-Contacts.release.xcconfig */,
+			);
+			name = "Pods-Contacts";
+			path = "Target Support Files/Pods-Contacts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06009ECF568C75FD5F7B9D5292CAA07D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF1226AE835007670719AB70010B022 /* Fakery-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CFDBB8F1EB4653BA2B6DE8CD866100 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5134D36DD36C7988FAA70C3DFB4A3C86 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADF33460BB0DA6716984DC79F1A7519 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1379C061BE1D946E41F24B7C70B2856 /* Pods-Contacts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57B2B2DDBC325F8661F1118FC4BBBF97 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B413BDA7C40170632FF8DE93CAA635B /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				2130846FF11CF1CBF9B137E1D44ABD42 /* Sources */,
+				6FD30CA72BBE0FE1221B2D4F79A1FEF7 /* Frameworks */,
+				70CFDBB8F1EB4653BA2B6DE8CD866100 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 4DB2BBA5AE33201159D078CE6D27FB9D /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8ADEC62D6DBC5FA811F2B07B2DAE9B4C /* Fakery-Faker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03A885207699CEB4BC79C92A6CA242A /* Build configuration list for PBXNativeTarget "Fakery-Faker" */;
+			buildPhases = (
+				908C8F3C43DDAC53557676D238580CA9 /* Sources */,
+				CE845E3B619FF3941267FF707C5EC551 /* Frameworks */,
+				C73A162345E8C07BECF4814AD3ED5551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fakery-Faker";
+			productName = "Fakery-Faker";
+			productReference = 2CA390843352D2AC2A928882C0C3D1B6 /* Faker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		900AF6F007AB96EED6B261C397989D51 /* Fakery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5483CE0A5B7264E64C6B862C9756AE85 /* Build configuration list for PBXNativeTarget "Fakery" */;
+			buildPhases = (
+				9DC7468CE7E33118DDE70B620BF47146 /* Sources */,
+				8B5767A6CD56813CDFE7D029DF387488 /* Frameworks */,
+				4CFE9815B2F73B8E816AB65AC292221D /* Resources */,
+				06009ECF568C75FD5F7B9D5292CAA07D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187D00C216F953188529102231E75F28 /* PBXTargetDependency */,
+				432C13B9EF65DF459C5091ABD76C62E6 /* PBXTargetDependency */,
+			);
+			name = Fakery;
+			productName = Fakery;
+			productReference = 0E2F5174DE8E45AC0EF27CB2E9966FA3 /* Fakery.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E72002D3BB07E29812E66611420CA748 /* Pods-Contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301D809D1C676FDC267A11979A0426FE /* Build configuration list for PBXNativeTarget "Pods-Contacts" */;
+			buildPhases = (
+				4164F7A428EDA2E52A55C4A37500EB6E /* Sources */,
+				700EBA59B2EAF8A67503E9CF09C9CEE9 /* Frameworks */,
+				EADF33460BB0DA6716984DC79F1A7519 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF202D71F8704DD11C4046BCD6E0896 /* PBXTargetDependency */,
+				6EBF6850BC75DA0F9B6C000C0F9791B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Contacts";
+			productName = "Pods-Contacts";
+			productReference = C577375A3D71546CBA066D61E75008CE /* Pods_Contacts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0181983F687AAD358E79ECAEAEBF75CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900AF6F007AB96EED6B261C397989D51 /* Fakery */,
+				8ADEC62D6DBC5FA811F2B07B2DAE9B4C /* Fakery-Faker */,
+				E72002D3BB07E29812E66611420CA748 /* Pods-Contacts */,
+				57B2B2DDBC325F8661F1118FC4BBBF97 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CFE9815B2F73B8E816AB65AC292221D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E2DDD1B52F561E3AD8310CE91BE245 /* Faker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73A162345E8C07BECF4814AD3ED5551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED52E221AC2F0D8D152BFE7FD0AB153 /* de-AT.json in Resources */,
+				825B12A367338D44D8F19242569A827B /* de-CH.json in Resources */,
+				CDDD6C6B672C98920EEFE6375A02B106 /* de.json in Resources */,
+				65C3B21D07C39B09829E298DAC7C7725 /* en-AU.json in Resources */,
+				AFECCCDD07A3C0C56BDED3104DCE734A /* en-CA.json in Resources */,
+				9D5D4DD2E6D85069F5AFA535865B20EF /* en-GB.json in Resources */,
+				58362B1E4B9BB06F7842DD6001B89302 /* en-IND.json in Resources */,
+				D804E12595C4259A76590CDEA7907DD2 /* en-TEST.json in Resources */,
+				42B94B0EAFB8D647D2EC055D87CFE060 /* en-US.json in Resources */,
+				87E03BD3B50B4E1E86733FF79D5D2B7E /* en.json in Resources */,
+				2B17FC679FB5DBC98E30834D922D90CE /* es.json in Resources */,
+				7F20C4DA0E4F2FDA54B9402E37E40192 /* fa.json in Resources */,
+				439049ADE66E4D13D7A331F91C901A0E /* fr.json in Resources */,
+				C497523A5A5B480FB9F0C0CEDC0DE01F /* it.json in Resources */,
+				E8C1B3E296285C416CD6C66031D87574 /* ja.json in Resources */,
+				9FD3CD384B90DB5317354712C5F9D481 /* ko.json in Resources */,
+				3FE1F2ED62EC036AB1FDDD4AFCBC678F /* nb-NO.json in Resources */,
+				F6C25069EDD6585FBDA1348B54F9D96A /* pl.json in Resources */,
+				6762EA8C1A6C692114294289D5594564 /* ru.json in Resources */,
+				A83D71EC00C5563A88EE80FA95FA7644 /* sk.json in Resources */,
+				B0B756E85511295212DD12E129D6A52E /* sv.json in Resources */,
+				FFB1C8C32289BE32C54E3CDC7827380C /* uk.json in Resources */,
+				129BA65D9DBC42DA7CB5D40C30F0CA97 /* zh-CN.json in Resources */,
+				F1F12A6CF6D535BDCEE901857B9AD80C /* zh-TW.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2130846FF11CF1CBF9B137E1D44ABD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C398CF366A58175C97458F7E936C4BA /* SwiftyJSON-dummy.m in Sources */,
+				471374596451031FF2CFDFC72FCC2CF4 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4164F7A428EDA2E52A55C4A37500EB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D917B932390E983A8713833F1EA6F /* Pods-Contacts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908C8F3C43DDAC53557676D238580CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC7468CE7E33118DDE70B620BF47146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383EA42BC18ADF7EA48454962905A2BA /* Address.swift in Sources */,
+				D5C9A341DA7EC3E3EF7AE5798B22A2C0 /* App.swift in Sources */,
+				B14086B458CAFAE773D301C365528DC0 /* ArrayExtension.swift in Sources */,
+				7ADE9D8AE7D1A1C247900869771C2BED /* Business.swift in Sources */,
+				FB5D488FB1FE49904BD05297B497F3BD /* Commerce.swift in Sources */,
+				4624271E7148FE5E57BA2938E036740A /* Company.swift in Sources */,
+				F76184D985A24BB8FD5F756B8A69FDEB /* Config.swift in Sources */,
+				32AA418D34C89E429D401BDF2C2CC30C /* Faker.swift in Sources */,
+				CB3686A17BFC352C1155B76A5D6B296E /* Fakery-dummy.m in Sources */,
+				9C5BF97CA8AABFEEAC6DE81343A8B4DC /* Generator.swift in Sources */,
+				96DC9A70691CABB635B1DA85D52F8821 /* Internet.swift in Sources */,
+				25F0AECA4CBCCD36DAFE96E7B0068BFF /* Lorem.swift in Sources */,
+				60E9804DA790CB0BAFEF4E52A0E3F840 /* Name.swift in Sources */,
+				BE7DBED7B67E2D67E9C73325DC3B06C8 /* Parser.swift in Sources */,
+				F9137FB5617D9845A47E6546042ADCBB /* PhoneNumber.swift in Sources */,
+				40CE20FB7F8CB3C2426E9CD5D03680E6 /* Provider.swift in Sources */,
+				748592FBD5D759FCCA0D3A64BC54A170 /* Team.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187D00C216F953188529102231E75F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Fakery-Faker";
+			target = 8ADEC62D6DBC5FA811F2B07B2DAE9B4C /* Fakery-Faker */;
+			targetProxy = AE21B8F82DFD7CA30BA22B181649AF3E /* PBXContainerItemProxy */;
+		};
+		432C13B9EF65DF459C5091ABD76C62E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 57B2B2DDBC325F8661F1118FC4BBBF97 /* SwiftyJSON */;
+			targetProxy = D0DAD1BE073049AFD56633FCFAF8B681 /* PBXContainerItemProxy */;
+		};
+		6EBF6850BC75DA0F9B6C000C0F9791B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 57B2B2DDBC325F8661F1118FC4BBBF97 /* SwiftyJSON */;
+			targetProxy = 39D3590EBDB48C5B55C4DA9B4C8EF81E /* PBXContainerItemProxy */;
+		};
+		CEF202D71F8704DD11C4046BCD6E0896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fakery;
+			target = 900AF6F007AB96EED6B261C397989D51 /* Fakery */;
+			targetProxy = 07F6353534BB44D5684E443E15F92A9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1045FEDBFFBABA08F3E4D7EB72FA0FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E26D4D12B127BB965494410F088F92 /* Fakery.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Faker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3A21691F31B1823A36A24FFEC0144D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653D8D207D854656B4A42B810097E7D8 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B13A1ADA6A41205E3DFC10617233CBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E26D4D12B127BB965494410F088F92 /* Fakery.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Faker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		710B5EE9A07C6BC6DF5594AF15C4954A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653D8D207D854656B4A42B810097E7D8 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		735A8A3482BCA740F08D017349E254B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76D4C0B753214AB99F5645C3183C298 /* Pods-Contacts.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Contacts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Contacts/Pods-Contacts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Contacts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B327D9AFD7D5EC3C8D5D5A66174E6B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23861000B12BBD48D09E6CCF43E729BA /* Pods-Contacts.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Contacts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Contacts/Pods-Contacts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Contacts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DF853689D2DA2C044F915893B96D6BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E26D4D12B127BB965494410F088F92 /* Fakery.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fakery/Fakery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fakery/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fakery/Fakery.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Fakery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D6E958DB7533BF87817EE056CE9160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E26D4D12B127BB965494410F088F92 /* Fakery.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fakery/Fakery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fakery/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fakery/Fakery.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Fakery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B413BDA7C40170632FF8DE93CAA635B /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710B5EE9A07C6BC6DF5594AF15C4954A /* Debug */,
+				3A21691F31B1823A36A24FFEC0144D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301D809D1C676FDC267A11979A0426FE /* Build configuration list for PBXNativeTarget "Pods-Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B327D9AFD7D5EC3C8D5D5A66174E6B35 /* Debug */,
+				735A8A3482BCA740F08D017349E254B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5483CE0A5B7264E64C6B862C9756AE85 /* Build configuration list for PBXNativeTarget "Fakery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D6E958DB7533BF87817EE056CE9160 /* Debug */,
+				DF853689D2DA2C044F915893B96D6BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03A885207699CEB4BC79C92A6CA242A /* Build configuration list for PBXNativeTarget "Fakery-Faker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B13A1ADA6A41205E3DFC10617233CBC /* Debug */,
+				1045FEDBFFBABA08F3E4D7EB72FA0FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
